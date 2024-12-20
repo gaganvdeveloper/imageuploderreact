@@ -23,7 +23,7 @@ const AllProfiles = () => {
       {profiles.map((p, index) => {
         return (
           <div key={index}>
-            <img src={("" + p.filePath).substring(59)} alt="Imag" />
+            <img src={("" + p.filePath).substring(59)} width={300} height={300}   alt="Imag" />
           </div>
         );
       })}
